@@ -11,7 +11,7 @@
     <nav>
         <ul class="datosPrincipales">
             <!-- Telefono y Whatsapp serian acciones para llamar y enviar mensaje Whatsapp directo -->
-            <li>Telefono 999900000</li>
+            <li>Telefono 952000249</li>
             <li>Whatsapp</li>
             <li><a href="ubicanos.html">Ubicanos</a></li>
         </ul>
@@ -28,33 +28,35 @@
         <img src="../img/logo.jpg" alt="el logo de la empresa" class="logoSecundario">
     </header>
     <main>
-        <h1>Reserva tu cita</h1>
-        <section>
+        <h1 class="miTitulo tituloSecundario">Reserva tu cita</h1>
+        <section class="centrarElemento">
             <form action="">
-                <label for="nombre">Nombre</label>
-                <input type="text" id="nombre" placeholder="Ingrese su Nombre">
+                <label class="textLabel" for="nombre">Nombre</label>
+                <input class="inputText" type="text" id="nombre" placeholder="Ingrese su Nombre">
                 <br>
                 <br>
-                <label for="apellido">Apellido</label>
-                <input type="text" id="apellido" placeholder="Ingrese su Apellido">
+                <label class="textLabel" for="apellido">Apellido</label>
+                <input  class="inputText" type="text" id="apellido" placeholder="Ingrese su Apellido">
                 <br><br>
-                <label for="">Sexo del solicitante</label>
-                <br>
+                <label class="textLabel" for="">Sexo del solicitante</label>
+                <br><br>
                 <input type="radio" name="sexo" id="">
                 <label for="">Hombre</label>
                 <input type="radio" name="sexo" id="">
                 <label for="">Mujer</label>
                 <br><br>
-                <label for="">Seleccione una Sucursal</label>
-                <select name="" id="">
+                <label class="textLabel" for="">Seleccione una Sucursal</label>
+                <br>
+                <br>
+                <select name="" id="" class="inputText">
                     <option value="">Seleccionar</option>
                     <option value="tacna">Tacna</option>
                     <option value="arequipa">Arequipa</option>
                     <option value="puno">Puno</option>
                 </select>
                 <br><br>
-                <label for="">Servicios a solicitar</label>
-                <br>
+                <label class="textLabel" for="">Servicios a solicitar</label>
+                <br><br>
                 <input type="checkbox" name="manicura" id="">
                 <label for="">Manicura</label>
                 <br>
@@ -63,7 +65,7 @@
                 <br>
                 <input type="checkbox" name="pestaña" id="">
                 <label for="">Pestañas</label>
-                <br>
+                <br><br>
                 <input type="submit" value="Solicitar cita">
                 <input type="reset" value="Cancelar">
             </form>

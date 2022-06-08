@@ -17,8 +17,10 @@ p{
     font-weight: bold;
 }
 .datosPrincipales{
-    background-color: rgb(193, 168, 217);
-
+    background-color: #DEC6D0;
+}
+.datosPrincipales li, .datosPrincipales li a{
+    color: #288767;    
 }
 .logo{
     width: 30px;
@@ -35,11 +37,13 @@ nav ul li{
     list-style: none;
     font-size: 2rem;
     display: inline-block;
-    margin: 0px 10px;
+    margin: 0px 20px;
+    color: darkmagenta;
+    font-weight: bold;
 }
 nav ul li a{
     text-decoration: none;
-
+    color: darkmagenta;
 }
 body{
     background-image: url(../img/burbujas_fondo.jpg);
@@ -52,6 +56,7 @@ header{
 
 header img{
     width: 80%;
+    border-radius: 10px;
 }
 
 article section img{
@@ -63,7 +68,9 @@ article section{
     display: inline-block;
     text-align: center;
     margin: 0px 30px;
-    border: 1px solid;
+    border: 2px solid #72BEA2;
+    border-radius: 20px;
+    overflow: auto;
 }
 
 article section p{
@@ -99,4 +106,84 @@ main article{
 
 .logoSecundario{
     width: 10%;
+    border-radius: 35px;
 }
+
+article section button{
+   border-radius: 20px;
+   padding: 5px;
+   font-size: 1.2rem;
+   border:solid 2px darkmagenta;
+   background-color: rgb(250, 220, 250);
+}
+
+.capitalLetter{
+    font-size: 4rem;
+}
+
+.miMapa{
+    display: inline-block;
+    width: 80%;
+    border:solid 3px #72BEA2;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 0px;
+}
+iframe{
+    width: 100%;
+    border: none;
+}
+
+.tituloSecundario{
+    color: #EB8078;
+}
+
+.miTabla{
+    display: inline-block;
+    font-size: 1.2rem;
+    border-collapse: collapse;
+    background-color: white;
+    border: 1px solid #EB8078;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th{
+    font-size: 1.5rem;
+    background-color: #a3bbb2;
+}
+
+th,td{
+    border: 1px solid #EB8078;
+    padding: 5px;
+}
+
+.centrarElemento{
+    text-align: center;
+}
+form{
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: 30%;
+    display: inline-block;
+    padding: 20px;
+    border: solid 1px;
+    background-color: #b5ebd7;
+    border-radius: 20px;
+    font-family: 'Merienda';
+}
+
+.inputText{
+    text-align: center;
+    width: 90%;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.textLabel{
+    font-size: 1.2rem;
+    color:#EB8078;
+    
+}
+
